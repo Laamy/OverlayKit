@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlayKit.Keymap", "OverlayKit.Keymap\OverlayKit.Keymap.csproj", "{979A4ACB-7BA7-4508-A1FD-4779C7686AC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{BD4B2B2B-DC5E-4F53-8F95-22DBED9C6A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeymapExample", "KeymapExample\KeymapExample.csproj", "{1B03480B-DF87-442E-BC82-74DDC43B4599}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{979A4ACB-7BA7-4508-A1FD-4779C7686AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979A4ACB-7BA7-4508-A1FD-4779C7686AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979A4ACB-7BA7-4508-A1FD-4779C7686AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979A4ACB-7BA7-4508-A1FD-4779C7686AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B03480B-DF87-442E-BC82-74DDC43B4599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B03480B-DF87-442E-BC82-74DDC43B4599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B03480B-DF87-442E-BC82-74DDC43B4599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B03480B-DF87-442E-BC82-74DDC43B4599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B03480B-DF87-442E-BC82-74DDC43B4599} = {BD4B2B2B-DC5E-4F53-8F95-22DBED9C6A1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {354D80E6-1341-4F99-8C5E-FEA867802761}
