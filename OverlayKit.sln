@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeymapExample", "KeymapExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlayKit.Window", "OverlayKit.Window\OverlayKit.Window.csproj", "{A225CCE8-0018-487D-A222-01E98491F6C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransparentSFMLWindow", "TransparentSFMLWindow\TransparentSFMLWindow.csproj", "{40EA5056-045E-4B25-8977-63D645AA8937}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFMLWindowKeymap", "TransparentSFMLWindow\SFMLWindowKeymap.csproj", "{40EA5056-045E-4B25-8977-63D645AA8937}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransparentWinForm", "TransparentWinForm\TransparentWinForm.csproj", "{D2EF85EF-1383-403D-918A-05E4E1F6968E}"
 EndProject

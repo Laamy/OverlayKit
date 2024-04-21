@@ -96,6 +96,9 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="OverlayKit.Keymap">
+      <HintPath>..\OverlayKit.Keymap\bin\x64\Debug\OverlayKit.Keymap.dll</HintPath>
+    </Reference>
     <Reference Include="OverlayKit.Window">
       <HintPath>..\OverlayKit.Window\bin\x64\Debug\OverlayKit.Window.dll</HintPath>
     </Reference>
@@ -121,6 +124,7 @@
     <Compile Include="GameEngine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SDK\FontRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
